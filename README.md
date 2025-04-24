@@ -1,14 +1,14 @@
 # Portfolio
 anurag2622.github.io/Portfolio
 
-###Education
+EDUCATION
 
 COMPUTER ENGINEERING (B.E)                      2022-2025                 THAPAR INSTITUTE OF ENGINEERING & TECHNOLOGY, PATIALA   
 ELECTRONICS ENGINEERING (DIPLOMA)               2019-2022                 ISTC-CSIO, CHANDIGARH                                
 CBSE (CLASS XII)                                2018-2019                 THE BRITISH SCHOOL, CHANDIGARH
 CBSE (CLASS X)                                  2016-2017                 MANAV MANGAL HIGH SCHOOL, CHANDIGARH
 
-###Work Experience/Internships
+WORK EXPERIENCE/INTERNSHIPS
 
 1. Data Analytics Intern | Infowiz |Chandigarh                                                           January 2025 – June 2025 (Undergoing)
     Conducting data analysis using Python, SQL, R, and Power BI. 
@@ -25,48 +25,56 @@ CBSE (CLASS X)                                  2016-2017                 MANAV 
     Engineered software solutions and designed a buffing machine.
     Gained experience in PLC programming and sensor integration.
 
-###Projects
-1. Capstone Project: Water Surface Cleaner
+PROJECTS
+
+1. Capstone Project: Water Surface Cleaner [Publication](https://github.com/anurag2622/Autonomous-Water-Surface-Cleaner/tree/main)
      Designed and integrated key components, including Arduino control, ultrasonic sensors, and solar power, for efficient water surface
      cleaning.
      Successfully created a functional prototype capable of autonomous operation and manual control with ongoing development of the
      Android application.
      Technologies Used: Arduino, ultrasonic sensors, servo motors, solar panels, and Android application development tools using ESP32
-2. Railway Management System
+2. Railway Management System [Publication](https://github.com/anurag2622/ML-Portfolio-Python)
      Built the backend system and optimized SQL queries for ticket booking.
      Ensured efficient database management with MySQL.
-3. Handwritten Text Recognition
+3. Handwritten Text Recognition [Publication](https://github.com/anurag2622/ML-Portfolio-Python)
      Implemented a Convolutional Neural Network (CNN) for digit recognition using TensorFlow and OpenCV.
      Achieved high accuracy in classifying handwritten digits.
-4. Power BI Dashboards
+4. Power BI Dashboards [Publication](https://github.com/anurag2622/BI-Dashboards-Portfolio)
      Designed and developed interactive dashboards using Power BI to visualize key business metrics and trends. Integrated multiple data sources including Excel, SQL databases, and web APIs.
      Utilized DAX and Power Query for advanced data transformation and calculations. Implemented dynamic filtering, drill-downs, and KPIs for real-time insights and decision-making.
-5. Sql Projects
+5. Sql Projects [Publication](https://github.com/anurag2622/SQL-Essentials-and-Projects)
      Completed top 50 problems covering joins, grouping, ranking, and filtering; improved query optimization and real-world schema handling.
      Enhanced efficiency in writing scalable, performance-optimized SQL queries.
-6. Excel Project
-	   Built Excel dashboards using VLOOKUP, pivot tables, and advanced formulas for dynamic data analysis and reporting.
+6. Excel Project [Publication](https://github.com/anurag2622/Excel-Data-Analytics)
+     Built Excel dashboards using VLOOKUP, pivot tables, and advanced formulas for dynamic data analysis and reporting.
 
 
-### CERTIFIED COURSES
- POSITIONS OF RESPONSIBILITY/ACHIEVEMENTS
- INTERNET OF THINGS |CSIR-CSIO |MAY 2021 
- BASICS OF ANALOG AND DIGITAL ELECTRONICS |CSIR-CSIO| FEBRUARY 2022 
- DATA VISUALIZATION |TIET | OCTOBER 2024
- EMPLOYABILITY SKILL DEVELOPMENT| MAHINDRA (NANDI) |JANUARY 2022 
- HANDWRITTEN TEXT RECOGNITION | ELC THAPAR | JUNE 2023 
- CYBER SECURITY | ELC THAPAR |JANUARY 2022
+CERTIFIED COURSES
 
-### POSITIONS OF RESPONSIBILITY/ACHIEVEMENTS
- TUG OF WAR CAPTAIN (SILVER WINNER*2) | (GOLD WINNER *1) |HOSTEL-D (TIET) | (2023,2024) 
- ESPORTS TEAM LEADER (GOLD WINNER) | ORION (TIET)| (2023,2024) 
- GOLD MEDALIST CARROM |HOSTEL-D (TIET) | (2024) 
- FOOTBALL SILVER MEDALIST |ISTC-CSIO | (2022) 
- VICE DISCIPLINE SECRETARY |HIGH SCHOOL | (2015-2017) 
- ENGLISH OLYMPIAD SILVER MEDALIST |HIGH SCHOOL| (2017)
+Internet of Things – CSIR-CSIO | May 2021
+Basics of Analog and Digital Electronics – CSIR-CSIO | February 2022
+Data Visualization – TIET | October 2024
+Employability Skill Development – Mahindra (Nandi) | January 2022
+Handwritten Text Recognition – ELC Thapar | June 2023
+Cyber Security – ELC Thapar | January 2022
 
-### Technical Skills
-• Power BI Desktop	•	Advanced Excel	•	Machine Learning	•	Data Modelling
-•	Power BI Service	•	SQL	•	DALL·E 2	•	Data Visualization
-•	Power Query (M- Query)	•	MySQL	•	Python	•	Data Cleaning
-•	DAX •	SQL Server	•	MS Office Suite	•	Data Storytelling
+POSITIONS OF RESPONSIBILITY/ACHIEVEMENTS
+
+Tug of War Captain – Silver Winner (×2), Gold Winner (×1) | Hostel-D, TIET | 2023, 2024
+Esports Team Leader – Gold Winner | ORION, TIET | 2023, 2024
+Gold Medalist – Carrom | Hostel-D, TIET | 2024
+Football – Silver Medalist | ISTC-CSIO | 2022
+Vice Discipline Secretary | High School | 2015–2017
+English Olympiad – Silver Medalist | High School | 2017
+
+TECHNICAL SKILLS
+
+• Power BI Desktop	      •	Advanced Excel		• Machine Learning	• Data Modelling
+• Power BI Service	      •	SQL			• DALL·E 2		• Data Visualization
+• Power Query (M- Query)      •	MySQL			• Python		• Data Cleaning
+• DAX •	SQL Server	      •	MS Office Suite		• Data Storytelling
+
+SOFT SKILLS
+
+Problem-Solving, Analytical Thinking, Communication, Attention to Detail, Adaptability, Leadership, Teamwork, Time Management,
+Creativity, and decision-making
