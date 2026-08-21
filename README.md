@@ -1,6 +1,6 @@
 # Anurag Pannu — Portfolio
 
-**Live:** [anurag2622.github.io/Portfolio](https://anurag2622.github.io/Portfolio/)
+**Live:** https://anurag2622.github.io/Portfolio/
 
 Interactive analytics-style portfolio dashboard showcasing skills, experience, certifications, projects, and achievements.
 
