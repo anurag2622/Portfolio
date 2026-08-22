@@ -124,7 +124,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
 .sq-tile:hover .sq-tile-name{color:var(--sq-color,var(--accent))}
 
 /* EXPERIENCE LIST */
-.exp-item{display:flex;gap:16px;padding:18px;border-radius:var(--radius-sm);border:1px solid var(--border);transition:all var(--transition);cursor:pointer;margin-bottom:10px}
+.exp-item{display:flex;gap:16px;padding:18px;border-radius:var(--radius-sm);border:1px solid var(--border);transition:all var(--transition);margin-bottom:10px}
 .exp-item:last-child{margin-bottom:0}
 .exp-item:hover{border-color:var(--accent);background:var(--accent-wash)}
 .exp-dot-col{display:flex;flex-direction:column;align-items:center;padding-top:4px;flex-shrink:0;width:20px}
@@ -156,7 +156,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
 /* (heatmap removed) */
 
 /* PROJECT CARDS (analytics style) */
-.proj-card{cursor:pointer}
+.proj-card{}
 .proj-card:hover{border-color:var(--accent)}
 .proj-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:14px;transition:all var(--transition)}
 .proj-card:hover .proj-icon{transform:scale(1.1) rotate(-5deg)}
@@ -170,7 +170,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
 .proj-link:hover{text-decoration:underline}
 
 /* EXTRAS MINI CARDS */
-.extra-mini{display:flex;align-items:center;gap:14px;padding:14px;border-radius:var(--radius-sm);border:1px solid var(--border);transition:all var(--transition);cursor:pointer;margin-bottom:10px}
+.extra-mini{display:flex;align-items:center;gap:14px;padding:14px;border-radius:var(--radius-sm);border:1px solid var(--border);transition:all var(--transition);margin-bottom:10px}
 .extra-mini:last-child{margin-bottom:0}
 .extra-mini:hover{border-color:var(--accent);background:var(--accent-wash)}
 .extra-mini-icon{font-size:24px;flex-shrink:0}
@@ -181,7 +181,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
 .extra-mini:hover .extra-mini-arrow{color:var(--accent);transform:translateX(4px)}
 
 /* EDUCATION MINI */
-.edu-mini{display:flex;align-items:center;gap:14px;padding:14px;border-radius:var(--radius-sm);border:1px solid var(--border);transition:all var(--transition);cursor:pointer;margin-bottom:10px}
+.edu-mini{display:flex;align-items:center;gap:14px;padding:14px;border-radius:var(--radius-sm);border:1px solid var(--border);transition:all var(--transition);margin-bottom:10px}
 .edu-mini:last-child{margin-bottom:0}
 .edu-mini:hover{border-color:var(--accent2);background:var(--accent2-wash)}
 .edu-icon{width:40px;height:40px;border-radius:10px;background:var(--accent2-wash);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;color:var(--accent2);flex-shrink:0}
@@ -291,7 +291,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
   <div class="topbar-right">
     <div class="topbar-status">Available for opportunities</div>
     <button class="theme-btn" onclick="toggleTheme()" id="themeBtn">Light Mode</button>
-    <button class="topbar-btn" onclick="alert('Add your resume PDF to the dashboard folder')">Download CV</button>
+    <a href="resume.pdf" download class="topbar-btn" style="text-decoration:none">Download CV</a>
   </div>
 </div>
 
@@ -337,7 +337,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
     </div>
     <div class="card kpi">
       <div class="kpi-label">Projects</div>
-      <div class="kpi-row"><span class="kpi-val purple" data-count="4">0</span><span class="kpi-delta neutral">In Progress: 1</span></div>
+      <div class="kpi-row"><span class="kpi-val purple" data-count="6">0</span><span class="kpi-delta neutral">In Progress: 1</span></div>
       <div class="kpi-spark"><svg viewBox="0 0 120 32" preserveAspectRatio="none"><polyline points="0,30 30,22 60,16 90,8 120,4" fill="none" stroke="rgba(224,92,255,0.4)" stroke-width="2"/><polyline points="0,30 30,22 60,16 90,8 120,4" fill="none" stroke="var(--accent4)" stroke-width="2" stroke-dasharray="200" stroke-dashoffset="200" class="spark-line"/></svg></div>
       <div class="kpi-sub">AI, Data Analytics, IoT, ML</div>
     </div>
@@ -418,7 +418,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
   <div class="card anim">
     <div class="card-header"><span class="card-title">Work History</span><span class="card-badge badge-blue">5 Roles</span></div>
 
-    <div class="exp-item" onclick="openModal('Wipro - Developer L2','experience/wipro-proof.png')">
+    <div class="exp-item">
       <div class="exp-dot-col"><div class="exp-dot"></div><div class="exp-line"></div></div>
       <div class="exp-info">
         <div class="exp-company">Wipro Limited</div>
@@ -428,7 +428,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
       </div>
     </div>
 
-    <div class="exp-item" onclick="openModal('Infowiz - Junior Data Analytics','experience/infowiz-proof.png')">
+    <div class="exp-item">
       <div class="exp-dot-col"><div class="exp-dot"></div><div class="exp-line"></div></div>
       <div class="exp-info">
         <div class="exp-company">Infowiz Software Solutions</div>
@@ -438,7 +438,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
       </div>
     </div>
 
-    <div class="exp-item" onclick="openModal('Essel Propack Limited','experience/essel-proof.png')">
+    <div class="exp-item">
       <div class="exp-dot-col"><div class="exp-dot"></div><div class="exp-line"></div></div>
       <div class="exp-info">
         <div class="exp-company">Essel Propack Limited</div>
@@ -448,7 +448,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
       </div>
     </div>
 
-    <div class="exp-item" onclick="openModal('GPCSSI - Cyber Police','experience/gpcssi-proof.png')">
+    <div class="exp-item">
       <div class="exp-dot-col"><div class="exp-dot"></div><div class="exp-line"></div></div>
       <div class="exp-info">
         <div class="exp-company">GPCSSI&rsquo;24 &mdash; Cyber Police</div>
@@ -458,7 +458,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
       </div>
     </div>
 
-    <div class="exp-item" onclick="openModal('Brain Domain - Software Intern','experience/brain-domain-proof.png')">
+    <div class="exp-item">
       <div class="exp-dot-col"><div class="exp-dot"></div></div>
       <div class="exp-info">
         <div class="exp-company">Brain Domain</div>
@@ -497,33 +497,47 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
 <div id="projects" style="margin-top:24px">
   <div class="section-label anim">Projects</div>
   <div class="grid-2">
-    <div class="card proj-card anim" onclick="openModal('3-Agent AI System','projects/agent-ai-screenshot.png')">
+    <div class="card proj-card anim">
       <div class="proj-icon" style="background:var(--accent-wash);color:var(--accent)">&#129302;</div>
       <div class="proj-title">3-Agent AI System</div>
-      <div class="proj-desc">Automating Supplier PO Confirmation workflows with UI, ERP datastore, and exception handling using a multi-agent AI architecture.</div>
-      <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">AI Agents</span><span class="proj-tag">ERP</span></div>
-      <div class="proj-meta"><span class="proj-date">Nov 2025 - Present</span><a class="proj-link" href="https://github.com/anurag2622" target="_blank" onclick="event.stopPropagation()">GitHub &nearr;</a></div>
+      <div class="proj-desc">Built a multi-agent AI architecture automating Supplier PO Confirmation workflows at Wipro. Three specialized agents handle UI interaction, ERP datastore operations, and exception handling — replacing a manual process that previously required cross-team coordination.</div>
+      <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">AI Agents</span><span class="proj-tag">ERP</span><span class="proj-tag">Automation</span></div>
+      <div class="proj-meta"><span class="proj-date">Nov 2025 - Present</span></div>
     </div>
-    <div class="card proj-card anim" onclick="openModal('Power BI Dashboards','projects/powerbi-dashboard.png')">
+    <div class="card proj-card anim">
       <div class="proj-icon" style="background:var(--accent2-wash);color:var(--accent2)">&#128202;</div>
-      <div class="proj-title">Power BI Dashboards</div>
-      <div class="proj-desc">Interactive dashboards visualizing key business metrics with dynamic filtering, drill-downs, and real-time KPIs.</div>
-      <div class="proj-tags"><span class="proj-tag">Power BI</span><span class="proj-tag">DAX</span><span class="proj-tag">Power Query</span></div>
-      <div class="proj-meta"><span class="proj-date">Jan - Mar 2025</span><a class="proj-link" href="https://github.com/anurag2622" target="_blank" onclick="event.stopPropagation()">GitHub &nearr;</a></div>
+      <div class="proj-title">Power BI & Excel Dashboards</div>
+      <div class="proj-desc">Collection of 4 interactive dashboards: PhonePe Transaction Analytics (custom DAX date table, MoM growth, KPIs), Blinkit Grocery Sales (Excel pivot tables, funnel charts, slicers), SuperStore Sales (geo maps, regional analysis), and E-Commerce Delivery Analytics (courier performance, delay tracking).</div>
+      <div class="proj-tags"><span class="proj-tag">Power BI</span><span class="proj-tag">DAX</span><span class="proj-tag">Power Query</span><span class="proj-tag">Excel</span></div>
+      <div class="proj-meta"><span class="proj-date">2025</span><a class="proj-link" href="https://github.com/anurag2622/BI-Dashboards-Portfolio" target="_blank">GitHub &nearr;</a></div>
     </div>
-    <div class="card proj-card anim" onclick="openModal('ML Projects','projects/ml-project.png')">
+    <div class="card proj-card anim">
       <div class="proj-icon" style="background:rgba(245,158,66,0.1);color:var(--accent3)">&#129504;</div>
-      <div class="proj-title">SQL / Python / ML Projects</div>
-      <div class="proj-desc">Data pipelines, Excel dashboards, CNN for handwritten digit recognition, and a SQL-driven railway management system.</div>
-      <div class="proj-tags"><span class="proj-tag">SQL</span><span class="proj-tag">Python</span><span class="proj-tag">CNN</span><span class="proj-tag">Excel</span></div>
-      <div class="proj-meta"><span class="proj-date">Mar - Jun 2025</span><a class="proj-link" href="https://github.com/anurag2622" target="_blank" onclick="event.stopPropagation()">GitHub &nearr;</a></div>
+      <div class="proj-title">Python & ML Projects</div>
+      <div class="proj-desc">CNN-based handwritten digit recognition trained on MNIST (60K images) with a saved Keras model and interactive prediction app. Includes a Railway Management System with MySQL backend for booking, scheduling, and passenger records.</div>
+      <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">TensorFlow</span><span class="proj-tag">OpenCV</span><span class="proj-tag">MySQL</span></div>
+      <div class="proj-meta"><span class="proj-date">2025</span><a class="proj-link" href="https://github.com/anurag2622/ML-Portfolio-Python" target="_blank">GitHub &nearr;</a></div>
     </div>
-    <div class="card proj-card anim" onclick="openModal('Water Surface Robot','projects/robot-photo.png')">
+    <div class="card proj-card anim">
       <div class="proj-icon" style="background:rgba(224,92,255,0.1);color:var(--accent4)">&#129470;</div>
-      <div class="proj-title">Water Surface Cleaning Robot</div>
-      <div class="proj-desc">Solar-powered robot with manual and autonomous control. Analyzed sensor logs to generate efficiency reports.</div>
-      <div class="proj-tags"><span class="proj-tag">Arduino</span><span class="proj-tag">Sensors</span><span class="proj-tag">Android</span></div>
-      <div class="proj-meta"><span class="proj-date">2024</span><a class="proj-link" href="https://github.com/anurag2622" target="_blank" onclick="event.stopPropagation()">GitHub &nearr;</a></div>
+      <div class="proj-title">Autonomous Water Surface Cleaner</div>
+      <div class="proj-desc">Solar-powered IoT robot for cleaning ponds and pools. Features dual-mode operation — autonomous navigation using ultrasonic sensors and manual control via a custom Android app over Bluetooth. Final year capstone project, patent pending.</div>
+      <div class="proj-tags"><span class="proj-tag">Arduino</span><span class="proj-tag">IoT</span><span class="proj-tag">Android</span><span class="proj-tag">Sensors</span></div>
+      <div class="proj-meta"><span class="proj-date">2024</span><a class="proj-link" href="https://github.com/anurag2622/Autonomous-Water-Surface-Cleaner" target="_blank">GitHub &nearr;</a></div>
+    </div>
+    <div class="card proj-card anim">
+      <div class="proj-icon" style="background:rgba(79,140,255,0.1);color:var(--accent)">&#128200;</div>
+      <div class="proj-title">SQL Essentials</div>
+      <div class="proj-desc">50+ structured SQL problems covering joins, CTEs, window functions (ROW_NUMBER, RANK, LEAD/LAG), subqueries, aggregation, and query optimization — organized by topic for progressive skill building.</div>
+      <div class="proj-tags"><span class="proj-tag">MySQL</span><span class="proj-tag">SQL</span><span class="proj-tag">Data Analytics</span></div>
+      <div class="proj-meta"><span class="proj-date">2025</span><a class="proj-link" href="https://github.com/anurag2622/SQL-Essentials-and-Projects" target="_blank">GitHub &nearr;</a></div>
+    </div>
+    <div class="card proj-card anim">
+      <div class="proj-icon" style="background:rgba(45,212,168,0.1);color:var(--accent2)">&#128202;</div>
+      <div class="proj-title">ML Classification Models</div>
+      <div class="proj-desc">Binary classification project with end-to-end pipeline — data exploration, missing value imputation, categorical encoding, feature engineering, model training with cross-validation, and prediction export.</div>
+      <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">Scikit-learn</span><span class="proj-tag">Pandas</span></div>
+      <div class="proj-meta"><span class="proj-date">2025</span><a class="proj-link" href="https://github.com/anurag2622/NeuroNexus" target="_blank">GitHub &nearr;</a></div>
     </div>
   </div>
 </div>
@@ -534,40 +548,34 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex
     <div id="education">
       <div class="section-label anim">Education</div>
       <div class="card anim">
-        <div class="edu-mini" onclick="openModal('B.E. Thapar University','education/thapar-degree.png')">
+        <div class="edu-mini">
           <div class="edu-icon">TU</div>
-          <div class="edu-mini-info"><div class="edu-mini-deg">B.E. Computer Engineering</div><div class="edu-mini-inst">Thapar University &middot; 2022-2025 &middot; Patiala</div></div>
-          <span class="edu-mini-arrow">&rarr;</span>
+          <div class="edu-mini-info"><div class="edu-mini-deg">B.E. Computer Engineering</div><div class="edu-mini-inst">Thapar Institute of Engineering & Technology &middot; 2022-2025 &middot; Patiala</div></div>
         </div>
-        <div class="edu-mini" onclick="openModal('Diploma ISTC-CSIO','education/istc-diploma.png')">
+        <div class="edu-mini">
           <div class="edu-icon">IC</div>
           <div class="edu-mini-info"><div class="edu-mini-deg">Diploma in Electronics</div><div class="edu-mini-inst">ISTC-CSIO &middot; 2019-2022 &middot; Chandigarh</div></div>
-          <span class="edu-mini-arrow">&rarr;</span>
         </div>
       </div>
     </div>
     <div id="extras">
       <div class="section-label anim">Achievements & Activities</div>
       <div class="card anim">
-        <div class="extra-mini" onclick="openModal('Impact Player Award','extras/impact-player-award.png')">
+        <div class="extra-mini">
           <span class="extra-mini-icon">&#127942;</span>
           <div class="extra-mini-info"><div class="extra-mini-title">Impact Player Award</div><div class="extra-mini-sub">Wipro x Microsoft AI Champions League 2026</div></div>
-          <span class="extra-mini-arrow">&rarr;</span>
         </div>
-        <div class="extra-mini" onclick="openModal('Tug of War Medal','extras/tugofwar-medal.png')">
-          <span class="extra-mini-icon">&#127941;</span>
-          <div class="extra-mini-info"><div class="extra-mini-title">Tug of War</div><div class="extra-mini-sub">Medal Winner</div></div>
-          <span class="extra-mini-arrow">&rarr;</span>
+        <div class="extra-mini">
+          <span class="extra-mini-icon">&#129351;</span>
+          <div class="extra-mini-info"><div class="extra-mini-title">Tug of War &mdash; 2x Gold Medal</div><div class="extra-mini-sub">Inter-Hostel Tournament, Thapar University</div></div>
         </div>
-        <div class="extra-mini" onclick="openModal('Carrom Medal','extras/carrom-medal.png')">
-          <span class="extra-mini-icon">&#127922;</span>
-          <div class="extra-mini-info"><div class="extra-mini-title">Carrom</div><div class="extra-mini-sub">Medal Winner</div></div>
-          <span class="extra-mini-arrow">&rarr;</span>
+        <div class="extra-mini">
+          <span class="extra-mini-icon">&#129352;</span>
+          <div class="extra-mini-info"><div class="extra-mini-title">Carrom &mdash; 1x Gold, 1x Silver</div><div class="extra-mini-sub">Inter-Hostel Tournament, Thapar University</div></div>
         </div>
-        <div class="extra-mini" onclick="openModal('Olympiad Medal','extras/olympiad-medal.png')">
+        <div class="extra-mini">
           <span class="extra-mini-icon">&#127891;</span>
           <div class="extra-mini-info"><div class="extra-mini-title">Olympiad</div><div class="extra-mini-sub">Medal Winner</div></div>
-          <span class="extra-mini-arrow">&rarr;</span>
         </div>
       </div>
     </div>
@@ -702,7 +710,7 @@ function openModal(title,basePath){
     } else if(found.length===1&&found[0].type==='img'){
       area.innerHTML='<img src="'+found[0].src+'" class="modal-img">';
     } else if(found.length===1&&found[0].type==='pdf'){
-      area.innerHTML='<embed src="'+found[0].src+'" type="application/pdf" class="modal-pdf">';
+      area.innerHTML='<embed src="'+found[0].src+'#toolbar=0&navpanes=0" type="application/pdf" class="modal-pdf">';
     } else {
       let html='<div class="modal-grid">';
       found.forEach((f,i)=>{
@@ -723,7 +731,7 @@ function showFullView(src,type){
   const grid=area.querySelector('.modal-grid');
   grid.style.display='none';
   let viewer='<button class="modal-back" onclick="this.nextElementSibling.remove();this.remove();document.querySelector(\'.modal-grid\').style.display=\'\'">&#8592; Back to all</button><div class="modal-fullview">';
-  if(type==='pdf') viewer+='<embed src="'+src+'" type="application/pdf">';
+  if(type==='pdf') viewer+='<embed src="'+src+'#toolbar=0&navpanes=0" type="application/pdf">';
   else viewer+='<img src="'+src+'">';
   viewer+='</div>';
   area.insertAdjacentHTML('beforeend',viewer);
